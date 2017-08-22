@@ -1,0 +1,96 @@
+                      <p>A robust single main rotor helicopter conducts unmanned deliveries. This configuration has been proven to be a reliable platform for payload delivery in full-scale over decades. Powered by a gasoline engine the platform brings together the efficiency and agility of helicopter along with the energy density of gasoline. </p>
+                      <p>Robust auto-pilot controller. Making fully autonomous flight, Loiter / Autonomous Hover at specified altitude, circle radius and location, Waypoint navigation, return to home on loss of radio contact. Auto takeoff and landing, rugged laptop based ground station for mission planning and telemetry, fully ready and tested.</p>
+                      <p>Powerful AI solution with deep learning, to assist pilot in obstacle detection and avoidance, path planning, safe payload delivery, take off and landing accuracy, enabling  beyond visual line of sight flight.</p>
+
+
+
+
+
+
+                      
+      <!-- team -->
+<!--       <div id="teams" class="section">
+        <div class="section__table">
+          <div class="section__cell">
+            <div class="container">
+
+              <div class="section__heading row">
+                <div class="col-xs-12 col-sm-5">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                      data-animation-in="fadeInUp2"
+                      data-animation-in-delay="300"
+                      data-animation-out="fadeOutDown2"
+                      data-animation-out-delay="600">
+                      <h2 class="section__title">
+                       TEAM <span class="color"></span>
+                      </h2>
+                      <div class="hr"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="service section__content row">
+                <div class="col-xs-12">
+                  <div id="serviceCarousel" style="text-align: -webkit-center;" class=" owl-carousel overflow-hidden owl-loaded owl-drag">
+
+                    <div class="team_item service__item"
+                      data-animation-in="fadeInUp"
+                      data-animation-in-delay="600"
+                      data-animation-out="fadeOutDown"
+                      data-animation-out-delay="100">
+                        <div class="card">
+                          <img src="img.jpg" alt="John" style="width:100%">
+                          <div class="container">
+                            <h3>Raj Kumar</h3>
+                            <h4 class="title">CEO & Founder, Example</h4>
+                            <p>IIT Kanpur</p>
+                            <a href"#"><i class="fa fa-linkedin"></i></a> 
+                          </div>
+                        </div>
+                    </div>
+
+
+                    <div class="team_item service__item"
+                      data-animation-in="fadeInUp"
+                      data-animation-in-delay="700"
+                      data-animation-out="fadeOutDown"
+                      data-animation-out-delay="200">
+                        <div class="card">
+                          <img src="img.jpg" alt="John" style="width:100%">
+                          <div class="container">
+                            <h3>Raj Kumar</h3>
+                            <h4 class="title">CEO & Founder, Example</h4>
+                            <p>IIT Kanpur</p>
+                            <a href"#"><i class="fa fa-linkedin"></i></a> 
+                          </div>
+                        </div>
+                    </div>
+
+
+                    <div class="team_item service__item"
+                      data-animation-in="fadeInUp"
+                      data-animation-in-delay="700"
+                      data-animation-out="fadeOutDown"
+                      data-animation-out-delay="200">
+                        <div class="card">
+                          <img src="img.jpg" alt="John" style="width:100%">
+                          <div class="container">
+                            <h3>Raj Kumar</h3>
+                            <h4 class="title">CEO & Founder, Example</h4>
+                            <p>IIT Kanpur</p>
+                            <a href"#"><i class="fa fa-linkedin"></i></a> 
+                          </div>
+                        </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- /team -->

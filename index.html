@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Endure Air</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>               <!-- bootstrap -->
+  <link rel='stylesheet' href='assets/css/vendor.css'>                      <!-- plugin -->
+  <link rel='stylesheet' href='assets/css/theme_dark_green.css' id="theme"> <!-- main style -->
+  <link rel='stylesheet' href='assets/css/custom.css'>                      <!-- custom style -->
+  <link rel='stylesheet' href='assets/css/demo.css'>                        <!-- demo style -->
+  <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+
+</head>
+
+
+<body>
+
+  <!-- site loader -->
+  <div class="site-loader">
+    <span>
+          <img src="assets/img/aeroplane.png"/>
+    </span>
+  </div>
+
+  <!-- site loader -->
+
+  <!-- site bg -->
+  <div class="site-bg">
+    <div class="site-bg__img"></div>
+    <div class="site-bg__video"></div>
+    <div class="site-bg__overlay"></div>
+    <div class="site-bg__effect"></div>
+    <canvas class="site-bg__canvas"></canvas>
+  </div>
+  <!-- /site bg -->
+
+  <!-- site nav -->
+  <nav class="site-nav">
+    <div class="site-nav__table">
+      <div class="site-nav__cell">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="site-nav__inner">
+                <!-- menu -->
+                <ul class="site-nav__menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#vision">About</a></li>
+                  <li><a href="#about">Work</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- /menu -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+  <!-- /site nav -->
+
+  <!-- site wrap -->
+  <div class="site-wrap">
+    <!-- site header -->
+    <header class="site-header">
+      <div class="container">
+        <!-- site header logo -->
+        <div class="site-header__logo">
+          <a class="_dark" href="#">
+            <img style="display: block;"  class="_red" src="assets/img/logo.png" alt=""> 
+          </a>
+        </div>
+        <!-- site header logo -->
+
+        <!-- site header icon -->
+        <ul class="site-header__icon">
+
+          <!-- menu icon -->
+          <li class="site-header__icon__nav">
+            <a href="#">
+              <i class="ion-android-menu"></i>
+            </a>
+          </li>
+          <!-- /menu icon -->
+        </ul>
+        <!-- /site header icon -->
+      </div>
+    </header>
+    <!-- /site header -->
+
+    <!-- site main -->
+    <main class="site-main">
+      <!-- home -->
+      <div id="home" class="section is-active">
+        <div class="section__table">
+          <div class="section__cell">
+            <div class="container-fluid max-width">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                    data-animation-in="fadeInUp2"
+                    data-animation-in-delay="300"
+                    data-animation-out="fadeOutDown2"
+                    data-animation-out-delay="700">
+                      <h1 class="section__title">
+                        Endure <span class="color">Air</span>
+                      </h1>
+                      <h2 class="section__title">
+                        ADDING ENDURANCE AND AI TO DRONES
+                      </h2>
+                      <p class="section__caption">Taking Off Soon.......</p>
+                    </div>
+                  </div>
+
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                    data-animation-in="fadeInUp2"
+                    data-animation-in-delay="1100"
+                    data-animation-out="fadeOutDown2"
+                    data-animation-out-delay="100">
+                      <div class="btn-wrap">
+
+                        <a class="btn btn-base _icon _circle" href="#vision" data-link="section"> <!-- link to section, edit the [href] and add [data-link="section"] -->
+                          <i class="ion-android-hangout"></i>
+                          More Info
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- newsletter -->
+        <div id="newsletter" class="mfp-hide">
+          <div class="newsletter-overlay"></div>
+          <form class="form-theme" id="formNewsletter">
+            <h3 class="form-title">Subscribe to our <span class="color">newsletter</span></h3> <!-- title -->
+            <p class="form-subtitle">We won't share your information.</p> <!-- subtitle -->
+            <div class="hr"></div> <!-- line -->
+            <p class="form-caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Aliquam in scelerisque nisi</b>, a convallis nibh.</p> <!-- caption -->
+            <div class="form-group required">
+              <label class="form-label" for="newsletterEmail">Your Email</label> <!-- label -->
+              <input class="form-control" id="newsletterEmail" type="text" name="email"> <!-- input -->
+            </div>
+            <button class="btn btn-theme btn-block _circle" type="submit">
+              Subscribe
+            </button> <!-- button -->
+            <div class="form-notify"></div> <!-- notify -->
+          </form>
+        </div>
+        <!-- /newsletter -->
+      </div>
+      <!-- /home -->
+
+      <div id="vision" class="section">
+        <div class="section__table">
+          <div class="section__cell">
+            <div class="container">
+              <div class="service section__content row">
+                <div class="col-xs-12">
+                  <div id="serviceCarousel" style="text-align: -webkit-center;" class=" owl-carousel overflow-hidden owl-loaded owl-drag">
+                  
+                  <div class="animation-item"
+                    data-animation-in="fadeInUp2"
+                    data-animation-in-delay="300"
+                    data-animation-out="fadeOutDown2"
+                    data-animation-out-delay="700">
+                      <h1 class="section__title">
+                        MISSION <span class="color"></span>
+                      </h1>
+                      <h3 class="section__title">
+                        Safe, Timely and Convenient Same Day Deliveries
+                      </h3>
+                      <p class="section__caption">
+                        We believe Commercial UAV's should become the de-facto solution for last mile deliveries in remote areas. Endure air’s UAV provides an ideal solution for last mile delivery, Endure Air’s  UAV comes with robust, rugged form factor and is the cheapest $/Mile/duration solution to efficiently solve the "last mile delivery" problem.
+                      </p>
+                    </div>
+
+                    <div class="animation-item"
+                    data-animation-in="fadeInUp2"
+                    data-animation-in-delay="300"
+                    data-animation-out="fadeOutDown2"
+                    data-animation-out-delay="700">
+                      <h1 class="section__title">
+                        VISION <span class="color"></span>
+                      </h1>
+                      <p class="section__caption">
+                       Provide innovative VTOL (Vertical take off and landing), high endurance, intelligent UAV (Un-manned Aerial Vehicle) solutions to solve last mile logistic problems
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+      </div>
+
+      <!-- about -->
+      <div id="about" class="section">
+        <div class="section__table">
+          <div class="section__cell">
+            <div class="container">
+              <!-- section heading -->
+              <div class="section__heading row">
+                <div class="col-xs-12 col-md-5">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                    data-animation-in="fadeInUp2"
+                    data-animation-in-delay="300"
+                    data-animation-out="fadeOutDown2"
+                    data-animation-out-delay="600">
+                      <h2 class="section__title">
+                       HOW <span class="color">IT</span> WORKS
+                      </h2>
+                      <div class="hr"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-md-offset-1">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                      data-animation-in="fadeInUp2"
+                      data-animation-in-delay="300"
+                      data-animation-out="fadeOutDown2"
+                      data-animation-out-delay="400">
+                      <p class="section__caption">
+                        At Endure Air we are working on solving the endurance problem of drones and making them fully autonomous…
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /section heading -->
+
+              <!-- section content -->
+              <div class="section__content row">
+                <div class="col-xs-12 col-md-6">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                      data-animation-in="fadeInLeft"
+                      data-animation-in-delay="900"
+                      data-animation-out="fadeOutLeft"
+                      data-animation-out-delay="100">
+                      <div class="about__item">
+                        <i class="ion-android-notifications-none"></i>
+                        <h3>90 Mins Flight endurance</h3>
+                        <p></p>
+                      </div>
+                      <div class="about__item">
+                        <i class="ion-android-bulb"></i>
+                        <h3>>3kgs payload capability</h3>
+                      </div>
+                      <div class="about__item">
+                        <i class="ion-scissors"></i>
+                        <h3>Vertical takeoff and landing</h3>
+                      </div>
+                      <div class="about__item">
+                        <i class="ion-android-bulb"></i>
+                        <h3>GPS enabled auto landing and takeoff</h3>
+                      </div>
+                      <div class="about__item">
+                        <i class="ion-scissors"></i>
+                        <h3>Onboard autopilot and AI computers</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                      data-animation-in="fadeInRight"
+                      data-animation-in-delay="900"
+                      data-animation-out="fadeOutRight"
+                      data-animation-out-delay="100">
+                      <p><span class="color">Step 1: </span>Order received along  with GPS Coordinates, along with satellite image of destination</p>
+                      <p><span class="color">Step 2: </span>Load payload and Take off </p>
+                      <p><span class="color">Step 3: </span>Find exact destination, once at the GPS coordinates matches the satellite image to the destination</p>
+                      <p><span class="color">Step 4: </span>Deliver finds a safe drop location away from cars, roofs, trees and people.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /section content -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /about -->
+
+
+      <!-- contact -->
+      <div id="contact" class="section">
+        <div class="section__table">
+          <div class="section__cell">
+            <div class="container">
+              <!-- section heading -->
+              <div class="section__heading row">
+                <div class="col-xs-12 col-sm-5">
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                      data-animation-in="fadeInUp2"
+                      data-animation-in-delay="300"
+                      data-animation-out="fadeOutDown2"
+                      data-animation-out-delay="600">
+                      <h2 class="section__title">
+                       Get <span class="color">in</span> touch
+                      </h2>
+                      <div class="hr"></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- /section heading -->
+
+              <!-- section content -->
+              <div class="section__content row">
+                <div class="col-xs-12 col-sm-5 col-md-4">
+                  <!-- contact info -->
+                  <div class="contact-info overflow-hidden">
+                    <div class="animation-item"
+                    data-animation-in="fadeInLeft"
+                    data-animation-in-delay="700"
+                    data-animation-out="fadeOutLeft"
+                    data-animation-out-delay="100">
+
+                      <div class="contact-info__item">
+                        <i class="ion-paper-airplane"></i>
+                        <h3>Email address</h3>
+                        <p>Email: info@endureair.com</p>
+                      </div>
+                      <div class="contact-info__item">
+                        <i class="ion-map"></i>
+                        <h3>Location</h3>
+                          <p>
+                            6086 Monterey hwy
+                            San Jose CA 95138
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /contact info -->
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-offset-1 col-md-offset-2">
+                  <!-- contact form -->
+                  <div class="overflow-hidden">
+                    <div class="animation-item"
+                    data-animation-in="fadeInRight"
+                    data-animation-in-delay="700"
+                    data-animation-out="fadeOutRight"
+                    data-animation-out-delay="100">
+                      <form class="form-theme" id="formContact" novalidate="novalidate">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="form-group required">
+                              <label class="form-label" for="contactName">Name</label>
+                              <input class="form-control" id="contactName" type="text" name="name">
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group required">
+                              <label class="form-label" for="contactEmail">Email</label>
+                              <input class="form-control" id="contactEmail" type="text" name="email">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group required">
+                          <label class="form-label" for="contactMessage">Message</label>
+                          <textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-theme _circle _icon">
+                          <i class="ion-forward"></i>
+                          Send Message
+                        </button>
+                        <div class="form-notify"></div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- contact form -->
+                </div>
+              </div>
+              <!-- /section content -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+    <!-- /site main -->
+
+    <!-- site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="site-footer__inner">
+              <p class="site-footer__copyright">
+                2017 @ <a href="#" target="_blank">Endureair</a> | All rights Reserved.
+              </p>
+<!-- 
+              <ul class="site-footer__social">
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /site footer -->
+  </div>
+  <!-- /site wrap -->
+
+  <!-- script -->
+  <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/plugin.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+  <script src='assets/js/demo.js'></script>
+  <!-- /script -->
+
+</body>
+
+</html>

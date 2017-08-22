@@ -1,0 +1,72 @@
+/**
+ * custom
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+#teams .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+
+}
+
+.card .container {
+    max-width: 300px;
+    padding: 0 16px;
+}
+
+#teams .title {
+    color: grey;
+    font-size: 18px;
+}
+
+#teams button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#teams a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+#teams button:hover, a:hover {
+    opacity: 0.7;
+}
+
+/*.owl-carousel{
+	display: block!important;
+}*/
+#team .#serviceCarousel{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+#team .#serviceCarousel .service__item {
+   padding: 0px 10px;
+}
+.team_item{
+       padding: 0px 10px;
+    display: -webkit-inline-box;
+    text-align: center;
+}
+
+#vision .owl-stage{
+    width: 100%!important
+}
+#vision .owl-item{
+    width: 100% !important;
+    margin-right: 0px !important; 
+}
